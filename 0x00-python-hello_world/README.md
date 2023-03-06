@@ -1,2 +1,1 @@
-# high level language 
-
+# 0x00. Python - Hello, World
