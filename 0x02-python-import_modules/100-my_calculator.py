@@ -1,4 +1,5 @@
-f __name__ == "__main__":
+#!/usr/bin/python3
+if __name__ == "__main__":
     import sys
 
     from calculator_1 import add, sub, mul, div
@@ -17,4 +18,3 @@ f __name__ == "__main__":
     b = int(sys.argv[3])
 
     print(f"{a} {sys.argv[2]} {b} = {operators[sys.argv[2]](a,b)}")
-
